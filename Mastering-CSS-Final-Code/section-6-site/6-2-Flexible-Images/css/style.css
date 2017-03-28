@@ -68,6 +68,12 @@ strong {
 img, iframe, video, object {
   max-width: 100%; 
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /***************
 Global
 ***************/
@@ -242,11 +248,9 @@ nav figure {
   position: absolute;
   top: -20px;
   left: 50px;
+  width: 160px;
   -webkit-animation: crazyShark 1s ease;  
   animation: crazyShark 1s ease;
-}
-nav img {
-  width: 160px;
 }
 @-webkit-keyframes crazyShark {
   0% { -webkit-transform: translate(45%, 35%);opacity: 0;}   
@@ -360,6 +364,7 @@ Interior Pages
   margin: 30px 3.125%; /* 30/960 */
   border: 15px solid #fff;
   overflow: hidden;
+  width: 23.958333333%; /* 230/960 */
 }
 .content-block .figure img {
   float: left;

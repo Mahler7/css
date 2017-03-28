@@ -79,7 +79,8 @@ Global
 }
 
 .wrapper {
-  width:960px;
+  max-width:960px;
+  width: 90%;
   margin: 0 auto;
 }
 body {
@@ -182,14 +183,14 @@ Buttons
 Go Premium
 ****************/
 .intro-content {
-  width: 600px;
-  margin-right: 60px;
+  width: 62.5%; /* 600/960 */
+  margin-right: 6.25%; /* 60/960 */
   float: left;
 }
 .go-premium {
-  width: 300px;
+  width: 31.25%; /* 300/960 */
   float: left;
-  margin-top: 150px;
+  margin-top: 150px; 
 }
 .call-to-action {
   border: 2px solid #fff;
@@ -357,7 +358,7 @@ Interior Pages
 }
 .content-block .figure {
   float: left;
-  margin: 30px;
+  margin: 30px 3.125%; /* 30/960 */
   border: 15px solid #fff;
   overflow: hidden;
 }
@@ -383,8 +384,8 @@ Interior Pages
 ****************/
 .column {
   float: left;
-  width: 300px; 
-  margin-left: 30px; 
+  width: 31.25%; /* 300/960 */
+  margin-left: 3.125%; /* 30/960 */
 }
 .column:first-child {
   margin-left: 0;
