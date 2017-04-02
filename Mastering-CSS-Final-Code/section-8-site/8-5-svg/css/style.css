@@ -403,6 +403,9 @@ Interior Pages
 .column:first-child {
   margin-left: 0;
 }
+.column figure { 
+  max-width: 250px;
+}
 /***************
 Footer
 ***************/
@@ -472,7 +475,6 @@ footer li {
   .column figure {
     margin: 0 auto;
     width: 100%; 
-    max-width: 250px;
   }
   .column h2 {
     text-align: center;
