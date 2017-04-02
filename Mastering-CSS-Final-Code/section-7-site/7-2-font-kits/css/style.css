@@ -161,12 +161,16 @@ h1 {
   margin-bottom: 10px; 
   font-style: normal;
   font-weight: bold;
+  font-family: "League Gothic";
+  font-style: normal;
 }
 h2 {
   font-size: 30px;
   margin-bottom: 10px;
   color: #eb2428;
   font-weight: 700; 
+  font-family: "League Gothic";
+  font-style: italic;
 }
 p {
   line-height: 1.6;
